@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * @file
+ *
+ * Entity reference selection handler example module file.
+ */
+
+/**
+* Implements hook_ctools_plugin_directory().
+*/
+function example_ctools_plugin_directory($module, $plugin) {
+  if ($module == 'entityreference') {
+    return 'plugins/entityreference/' . $plugin;
+  }
+}

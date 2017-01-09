@@ -1,0 +1,5 @@
+name = Entity Reference Selection Plugin Example
+description = Demonstration of Entity reference selection plugins.
+core = 7.x
+
+files[] = plugins/entityreference/selection/ExampleSelectionHandler.class.php
